@@ -38,4 +38,4 @@ EL SOFTWARE.
 ![Heat map classic theme](https://github.com/coder-dojo-cordoba/FlyCatcher/blob/master/SS4.PNG?raw=true =50x20)
 
 
-La versión original se puede jugar [aqui](http://varunpant.com/static/resources/CrappyBird/index.html)
+La versión original se puede jugar [aqui](http://www.coderdojocordoba.org/games/FlyCatcher/index.html)
