@@ -473,7 +473,7 @@
         FB.Bird = function () {
 
             this.img = new Image();
-            this.img.src = 'bird.png';
+            this.img.src = 'images/bird.png';
             this.gravity = 0.25;
             this.width = 34;
             this.height = 24;
@@ -622,7 +622,7 @@
 		window.Splash = function(){
 			
 			this.banner = new Image();
-			this.banner.src = "splash.png";
+			this.banner.src = "images/splash.png";
 			
 			this.init = function(){
 				play_sound(soundSwoosh);
@@ -671,7 +671,7 @@
                 FB.entities.push(FB.bird);
 				for(var n=0;n<10;n++){
 					var img = new Image();
-					img.src = "font_small_" + n +'.png';
+					img.src = "images/font_small_" + n +'.png';
 					FB.fonts.push(img);
 				}
 				FB.digits = ["0"];
@@ -780,12 +780,12 @@
 				setTimeout(function() {
 					play_sound(soundDie);
 					that.banner = new Image();
-					that.banner.src = "scoreboard.png";
+					that.banner.src = "images/scoreboard.png";
 					var m = that.getMedal();
 					that.medal =  new Image();
-					that.medal.src = 'medal_' + m +'.png';
+					that.medal.src = 'images/medal_' + m +'.png';
 					that.replay = new Image();
-					that.replay.src = "replay.png";
+					that.replay.src = "images/replay.png";
 					that.highscore = that.getHighScore() ;
 				}, 500);
 				
