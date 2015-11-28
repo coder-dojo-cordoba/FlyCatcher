@@ -473,10 +473,13 @@
         FB.Bird = function () {
 
             this.img = new Image();
-            this.img.src = 'images/bird.png';
+            //this.img.src = 'images/floppy-bird-55x4.png';
+            this.img.src = 'images/superman-8bit-60x4.png';
             this.gravity = 0.25;
-            this.width = 34;
-            this.height = 24;
+            //this.width = 55;
+            this.width = 60;
+            //this.height = 55;
+            this.height = 60;
             this.ix = 0;
             this.iy = 0;
             this.fr = 0;
